@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/8y70lnmddsfwahu2?svg=true)](https://ci.appveyor.com/project/FreeNewMan/hw-test-ci)
