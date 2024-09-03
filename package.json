@@ -1,25 +1,24 @@
 {
-  "name": "hw-test-ci",
+  "name": "ajs",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
     "test": "jest",
-    "lint": "eslint ."
+    "coverage": "jest --coverage"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Rysaev Damir <freepad@ya.ru>",
+  "license": "MIT",
   "devDependencies": {
-    "@babel/cli": "^7.25.6",
-    "@babel/core": "^7.25.2",
-    "@babel/preset-env": "^7.25.4",
-    "eslint": "^7.25.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-jest": "^28.8.2",
+    "@babel/cli": "^7.23.0",
+    "@babel/core": "^7.23.0",
+    "@babel/preset-env": "^7.22.20",
+    "@types/jest": "^29.5.5",
+    "eslint": "^8.50.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-plugin-jest": "^27.4.2",
     "jest": "^29.7.0"
-  },
-  "dependencies": {
-    "core-js": "^3.38.1"
-  }
+ }
 }
