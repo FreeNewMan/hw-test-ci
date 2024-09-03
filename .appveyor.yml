@@ -1,4 +1,3 @@
-image: Ubuntu1804 
 environment:
   nodejs_version: "18"
 
